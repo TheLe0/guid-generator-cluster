@@ -28,6 +28,12 @@ docker images
 
 And see if there's a image named ```guid-api```.
 
+To run the container on Docker run:
+
+```bash
+docker run -it --rm -p 5000:80 --name my-guid-generator-container guid-api
+```
+
 2. Create the cluster:
 
 ```bash
